@@ -1,0 +1,9 @@
+:root{
+    --mi-variable:yellow;
+}
+h1{
+    color: var(--mi-variable);
+}
+a{
+    color: var(--mi-variable);
+}

@@ -1,0 +1,20 @@
+html{
+  font-size: 20px;
+}
+
+.caja{
+    font-size: 2rem;
+    width: 25rem;
+    height: 25rem;
+    
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+@media (max-width:768px){
+  html{
+    font-size: 12px;
+    
+    }
+}
+/*em hay que tener un fontsize 1em=20px em depende del elemento padre rem=16px
