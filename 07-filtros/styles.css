@@ -1,0 +1,20 @@
+/*filtros Css se puede usar en todos los tipo de caja y imagenes*/
+img{
+    filter:hue-rotate(1000deg);
+    transition: all 400ms ease-in-out;
+}
+img:hover{
+    filter: brightness(100%);
+}
+.caja{
+    filter: grayscale(50%);
+    border: 1px solid blue;
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
