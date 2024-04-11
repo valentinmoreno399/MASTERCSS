@@ -78,3 +78,19 @@ body{
 .widget__link:hover{
     color: var(--color-hover-dark);
 }
+
+.menu-mobile__list{
+    color: var(--color-bg-dark);
+}
+.menu-mobile__link{
+    color: var(--color-bg-dark);
+}
+.submenu-mobile__link{
+    color: red;
+}
+.menu-mobile__icon-close{
+    color: var(--color-bg-btn);
+}
+.mobile-btn__line{
+    background-color: palevioletred;
+}
